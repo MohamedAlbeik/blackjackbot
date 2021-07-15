@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    background-color: #0D1F2D;
+    color: white;
+    margin: 0;
+    padding: 3rem 2rem;
+}
+body{
+    
+    background: linear-gradient(rgb(255, 255, 255, .3),rgb(0, 0, 0, .3)),
+     url("https://freerangestock.com/sample/48182/cardboard-texture-background.jpg") no-repeat;
+    background-size :cover;
+    height: 100vh;
+    width: 100vw;
+    background-color: #E4C3AD;
+}
+img{
+    max-width: 100px;
+    max-height: 300px;
+    padding: .3rem;
+    margin: .5rem;
+    border-radius: .4rem;
+    background-color: white;
+}
+.cards{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.buttons{
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    color: white;
+    background-color: #546A7B;
+    border-radius: .4rem;
+    padding: .5rem 1rem;
+    border:none;
+    transition: .2s;
+}
+button:hover{
+    background-color: #546a7bb6;
+    text-decoration: underline;
+}
+button:active{
+    background-color: #680c23;
+}
+
+#redeal{
+    display: flex;
+    justify-content: center;
+}
+#redeal-btn{
+    min-width: 20%;
+    margin: 2rem;
+    background-color: rgba(105, 1, 1, 0.979);
+}
+#redeal-btn:hover{
+    background-color: rgba(105, 1, 1, 0.8);
+}
+@media (max-width : 970px) {
+    .buttons{
+        min-width: 70%;
+    }
+    button{
+        margin-top: .75rem;
+        max-width: 50%;
+    }
+}
